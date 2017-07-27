@@ -1,0 +1,4 @@
+
+#Remove field : X-Originating-IP
+su – zimbra
+zmprov -c mcf zimbraSmtpSendAddOriginatingIP FALSE
